@@ -1,0 +1,44 @@
+body {
+    background: #495057;
+}
+
+body *{
+	/*font-family: 'cwTeXYen', 'Microsoft JhengHei', serif;*/
+	font-family: "Biaodian Pro Sans CNS","Helvetica Neue",Helvetica,Arial,"Zhuyin Heiti","Han Heiti",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 100%;
+}
+
+article.single-post-page {
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+blockquote:after {
+    content: '';
+    margin-left: -.05em;
+}
+
+.yue blockquote>p {
+    margin: 0 0 1.64em 0;
+    border-left: 3px solid #dadada;
+    padding-left: 12px;
+    color: #666664;
+}
+
+.mdl-card__title>h2 {
+	background: #495057;
+}
+
+footer.mdl-mini-footer {
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+@media (max-width:991px) {
+  body,h1,h2,h3,h4,h5,h6,p,a,li,div{
+  font-family: 'Microsoft JhengHei', serif;
+  text-align: justify;
+  }
+}
