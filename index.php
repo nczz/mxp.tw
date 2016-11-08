@@ -21,10 +21,9 @@ elseif (is_archive() && $template = 'archive'):
 else:
 	$template = 'index';
 endif;
-if ($template != 'index') {
-	include 'templates/' . $template . '.php';
-} else {
-	echo 'tpl:' . $template . '<br/>';
+
+if (!@include 'templates/' . $template . '.php') {
+	@include 'templates/404.php';
 }
 
 get_footer();

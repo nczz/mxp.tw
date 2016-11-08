@@ -27,7 +27,7 @@ class Mxp_theme {
 		wp_enqueue_style($this->slug . '-google-fonts-material-icons', '//fonts.googleapis.com/icon?family=Material+Icons', array(), null);
 		wp_enqueue_style($this->slug . '-material-css');
 		wp_enqueue_style($this->slug . '-yue-css', $path_uri . 'css/yue.css');
-		wp_enqueue_style($this->slug . '-main-css', $path_uri . 'css/style.css');
+		wp_enqueue_style($this->slug . '-main-css', get_template_directory_uri() . '/style.css');
 	}
 	public function load_footer_resource() {
 		$path_uri = get_template_directory_uri() . '/include/';
