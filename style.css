@@ -43,8 +43,28 @@ blockquote:after {
     color: #666664;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .mdl-card__title>h2 {
 	background: #495057;
+  box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
+   padding: 5px;
 }
 
 footer.mdl-mini-footer {
